@@ -1,0 +1,1 @@
+let edad = Number(prompt('cual es tu edad'))
