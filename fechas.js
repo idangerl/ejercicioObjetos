@@ -1,0 +1,10 @@
+const fechaHoy = new Date()
+const fechaNacimiento = new Date(1997,4,1)
+let vari= fechaNacimiento>fechaHoy
+console.log(vari)
+let dia = fechaNacimiento.getDate()
+console.log(dia)
+let mes = fechaNacimiento.getMonth()
+console.log(mes)
+let year = fechaNacimiento.getFullYear()
+console.log(year)
